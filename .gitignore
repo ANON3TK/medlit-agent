@@ -1,0 +1,27 @@
+# Python caches
+__pycache__/
+.pytest_cache/
+.pytest_tmp_*/
+*.py[cod]
+*.egg-info/
+# IDE and virtual environments
+.idea/
+.vscode/
+.venv/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Local application data
+chroma_db/
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Local runtime output
+*.log
+
+*.pdf
